@@ -13,6 +13,7 @@ create table Usuaris(
     grup_escolar int,
     foto varchar(200),
     correu varchar(50),
+    contrasena varchar(15),
     rol varchar(3),
     fecha_inscripcion datetime,
     Primary Key (id));
